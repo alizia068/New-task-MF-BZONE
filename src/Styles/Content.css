@@ -1,0 +1,269 @@
+.main-txt {
+    line-height: 34.58px;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    font-size: 26px;
+    height: 244px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .main-txt {
+        line-height: 20.58px;
+        width: 1000px;
+        font-weight: 400;
+        font-family: 'Segoe UI';
+        font-size: 16px;
+        height: 144px;
+        /* box-sizing: border-box; */
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+    .main-txt {
+        line-height: 20.58px;
+        width: 1200px;
+        font-weight: 400;
+        font-family: 'Segoe UI';
+        font-size: 20px;
+        height: 200px;
+        /* box-sizing: border-box; */
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .main-txt {
+        line-height: 20.58px;
+        width: 1500px;
+        font-weight: 600;
+        font-family: 'Segoe UI';
+        font-size: 16px;
+        height: 144px;
+        /* box-sizing: border-box; */
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .group501-image {
+        width: 900px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+    .group501-image {
+        width: 950px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .group501-image {
+        width: 1000px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .group445-image {
+        width: 900px;
+    }
+}
+
+@media only screen and (min-width: 501) and (max-width: 768px) {
+    .group445-image {
+        width: 950px;
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 769) and (max-width: 1024px) {
+    .group445-image {
+        width: 1000px;
+        display: flex;
+    }
+}
+
+.heading-txt {
+    color: #ff7518;
+    /* height: 69.82px; */
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+@media only screen and (min-width: 300) and (max-width: 500px) {
+    .heading-txt {
+        color: #ff7518;
+        /* height: 69.82px; */
+        font-weight: 300;
+        margin-top: 40px;
+    }
+}
+
+.group445-image {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-dec {
+    display: flex;
+    align-items: center;
+}
+
+/* 1 */
+
+.plumbing_estimation-style {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 2 */
+
+.mechanical_estimation-style {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.image-set {
+    /* width: 480px; */
+    height: 653px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .image-set {
+        height: 500px;
+
+
+    }
+}
+
+.img_txt-container {
+    display: flex;
+}
+
+.mechanical_list-txt {
+    width: 708px;
+    height: 333px;
+    font-weight: 400;
+    font-size: 26px;
+    font-family: 'Segoe UI';
+    line-height: 34.58px;
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .mechanical_list-txt {
+        width: 508px;
+        height: 233px;
+        font-weight: 300;
+        font-size: 20px;
+        font-family: 'Segoe UI';
+        line-height: 20.58px;
+
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+    .mechanical_list-txt {
+        width: 600px;
+        height: 300px;
+        font-weight: 400;
+        font-size: 26px;
+        font-family: 'Segoe UI';
+        line-height: 34.58px;
+    }
+}
+
+.plumbing-list-txt {
+    width: 262px;
+    height: 228px;
+    font-weight: 400;
+    font-size: 26px;
+    font-family: 'Segoe UI';
+    line-height: 34.58px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .plumbing-list-txt {
+        width: 162px;
+        height: 128px;
+        font-weight: 200;
+        font-size: 16px;
+        font-family: 'Segoe UI';
+        line-height: 24.58px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+    .plumbing-list-txt {
+        width: 200px;
+        height: 228px;
+        font-weight: 300;
+        font-size: 26px;
+        font-family: 'Segoe UI';
+        line-height: 30.58px;
+    }
+}
+
+.plumbing_2-list-txt {
+    width: 247px;
+    height: 193px;
+    font-weight: 400;
+    font-size: 26px;
+    font-family: 'Segoe UI';
+    line-height: 34.58px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .plumbing_2-list-txt {
+        width: 247px;
+        height: 128px;
+        font-weight: 200;
+        font-size: 16px;
+        font-family: 'Segoe UI';
+        line-height: 24.58px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+    .plumbing_2-list-txt {
+        width: 200px;
+        height: 173px;
+        font-weight: 300;
+        font-size: 26px;
+        font-family: 'Segoe UI';
+        line-height: 30.58px;
+    }
+}
+
+.txt-image,
+.txt1-image {
+    margin-top: 60px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .second_last_footer {
+        width: 900px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .footer-image {
+        width: 1000px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+    .footer-image {
+        width: 1200px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .footer-image {
+        width: 1500px;
+    }
+}
